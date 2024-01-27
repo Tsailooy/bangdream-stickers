@@ -115,6 +115,24 @@ export default function Info({ open, handleClose, config }) {
                   secondary="汉化"
                 />
               </ListItem>
+              <ListItem
+                button
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/tsailooy")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Tsailooy"
+                    src="https://avatars.githubusercontent.com/tsailooy"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Tsailooy"
+                  secondary="bangdream表情素材"
+                />
+              </ListItem>
             </List>
             <Typography variant="h6" component="h3">
               你可以在这里找到源代码:
@@ -149,6 +167,21 @@ export default function Info({ open, handleClose, config }) {
                   />
                 </ListItemAvatar>
                 <ListItemText primary="GitHub" secondary="汉化版" />
+              </ListItem>
+              <ListItem
+                button
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/Tsailooy/bangdream-stickers")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="GitHub"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  />
+                </ListItemAvatar>
+                <ListItemText primary="GitHub" secondary="bangdream版" />
               </ListItem>
             </List>
             <Typography variant="h6" component="h3">
